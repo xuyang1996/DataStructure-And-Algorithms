@@ -1,0 +1,13 @@
+###it's about implementing BinaryTree operatons with C++ including:
+
+1. how to create a binary tree(with recursion)
+2. four ways of traversal using recursion and non-recursion
+	* preorder traversal
+	* inorder traversal
+	* postorder traversal
+	* level traversal
+3. get the size and depth of the binary tree
+4. get k level size and print nodes of this level
+5. get how many leaf nodes are
+
+**to be continued...**
