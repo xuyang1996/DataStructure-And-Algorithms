@@ -10,7 +10,7 @@ struct Greater
 {
 	bool operator()(const T& lhs, const T& rhs)
 	{
-		return lhs < rhs;
+		return lhs > rhs;
 	}
 };
 
@@ -19,7 +19,7 @@ struct Less
 {
 	bool operator()(const T& lhs, const T& rhs)
 	{
-		return lhs > rhs;
+		return lhs < rhs;
 	}
 };
 
@@ -84,7 +84,7 @@ private:
 	{
 		Compare compare;
 		size_t parent = (k - 1) / 2;
-		while (k >= 0)
+		while (k > 0)
 		{
 			if (compare(_v[k], _v[parent])) //比较孩子和父亲的大小
 			{
