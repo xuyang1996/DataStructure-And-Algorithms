@@ -4,7 +4,7 @@
 using namespace std;
 
 // for more details, please go to my csdn
-// 
+// http://blog.csdn.net/xy913741894/article/details/56299727
 class BitMap
 {
 public:
